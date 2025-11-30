@@ -1,6 +1,16 @@
+<div align="center">
+
 # riptree
 
-A beautiful tree command that respects `.gitignore` with colorful file icons.
+<img src="https://raw.githubusercontent.com/Diplo2by/riptree/main/assets/logo.png" alt="riptree logo" width="250"/>
+
+**A beautiful tree command that respects .gitignore with colorful file icons**
+
+[![PyPI version](https://badge.fury.io/py/riptree.svg)](https://badge.fury.io/py/riptree)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python 3.7+](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/downloads/)
+
+</div>
 
 ## Features
 
