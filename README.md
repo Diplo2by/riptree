@@ -61,7 +61,7 @@ riptree --version
 ├── 📦 package.json
 └── 🙈 .gitignore
 
-2 directories, 6 files
+2 directories, 7 files
 ```
 
 ## Supported File Types
