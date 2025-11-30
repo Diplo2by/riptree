@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=45", "wheel", "setuptools_scm>=6.2"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "riptree"
+version = "0.1.0"
+description = "A tree command that respects .gitignore with beautiful icons"
+readme = "README.md"
+requires-python = ">=3.7"
+license = {text = "MIT"}
+keywords = ["tree", "git", "gitignore", "cli", "development-tools"]
+authors = [
+  {name = "Darshan V", email = "contactdarshanv@gmail.com" }
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Developers",
+  "Programming Language :: Python :: 3",
+]
+
+[project.scripts]
+riptree = "riptree.cli:main"
+
+[project.urls]
+"Source" = "https://github.com/Diplo2by/riptree"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["riptree*"]
